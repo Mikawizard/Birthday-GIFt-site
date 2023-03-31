@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    text-shadow: 0 0 1px black;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#person-img {
+    width: 280px;
+    border: 6px solid #efb0c9;
+    border-radius: 50%;
+}
+#age {
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0 10px 0;
+}
+#date {
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+#img-happy:hover {
+    background: url("images/happy.gif");
+    background-size: cover;
+}
+#img-wow:hover {
+    background: url("images/wow.gif");
+    background-size: cover;
+}
+#img-genius:hover {
+    background: url("images/genius.gif");
+    background-size: cover;
+}
+#img-cool:hover {
+    background: url("images/cool.gif");
+    background-size: cover;
+}
+#img-yay {
+    height: 200px;
+}
+#img-yay:hover {
+    background: url("images/yay.gif");
+    background-size: cover;
+}
+.img-format {
+    margin: 0 auto;
+    height: 400px;
+    background: url("images/gift\ cover.jpg");
+    background-size: cover;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+#footer {
+    margin: 40px 0 25px 0;
+    font-style: italic;
+    font-size: 20px;
+}
+#footer a {
+    color: white;
+}
